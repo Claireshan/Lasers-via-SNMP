@@ -6,7 +6,7 @@ input {
   snmp {
     hosts => [
       {host => "udp:ip/port" community => ""},
-#      {host => "udp:ip/port" community => ""},
+      {host => "udp:ip/port" community => ""},
       {host => "udp:ip/port" community => ""}
     ]
     mib_paths => ["/etc/logstash/junos-mibs"]
